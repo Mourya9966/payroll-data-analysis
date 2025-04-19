@@ -1,43 +1,24 @@
-# Payroll Data Analytics Project
+# Payroll Components Calculator
 
-## 📌 Overview
-This project analyzes employee payroll data across different departments and locations for a fictional company. It uses Excel to generate key business insights from salary, attendance, and tax data over a 3-month period.
+This is a simple web-based payroll calculator that calculates basic salary, HRA, PF, and gross salary from a monthly salary input.
 
-## 📊 Tools Used
-- **Microsoft Excel** (Pivot Tables, Charts)
-- **Power BI** *(optional for future visualization)*
-- **GitHub** (to host project files)
+## 💡 Features
+- Input monthly salary
+- Calculates:
+  - Basic Salary (40% of monthly)
+  - HRA (20% of basic)
+  - PF (12% of basic)
+  - Gross Salary (Monthly - PF)
 
-## 📁 Dataset Info
-- **Employees:** 50  
-- **Months Covered:** Jan 2024 – Mar 2024  
-- **Columns:** Employee Name, Department, Location, Base Salary, Attendance, Salary Earned, Tax, Net Pay
+## 🛠 Tech Stack
+- HTML
+- CSS
+- JavaScript
 
-## 📈 Analysis Performed
-1. Total Net Pay by Department
-2. Salary Trends by Month
-3. Tax Deducted by Location
-4. Average Attendance per Department
-5. Top 5 Salary Earners (Optional in Power BI)
+## 🚀 How to Use
+1. Open `index.html` in your browser.
+2. Enter a monthly salary.
+3. Click "Calculate" to view payroll components.
 
-## 💡 Key Insights
-- The **IT** department had the highest total payroll payout.
-- **Bangalore** location had the highest concentration of employees and net pay.
-- Average attendance across all departments stayed above 85%.
-- Monthly payroll increased steadily from Jan to Mar due to consistent attendance.
-
-## 📂 Files Included
-- `payroll_data_project.xlsx` – cleaned dataset with formulas
-- *(Optional)* `dashboard.pbix` – Power BI file *(to be added)*
-- `README.md` – this project documentation
-
-## 🧑‍💼 Author
-**Mourya Prakash**  
-MBA (Finance & HR), aspiring Data Analyst  
-📍 Bangalore  
-📧 prakash2702@gmail.com  
-📞 9966139565
-
----
-
-Feel free to connect with me on [LinkedIn](#)!
+## 📄 Author
+Created as part of a beginner IT transition portfolio.
